@@ -1,2 +1,2 @@
 # big-four
-test moj prvi upload sajta
+upload prvog sajta
