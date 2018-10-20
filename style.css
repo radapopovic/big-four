@@ -1,0 +1,40 @@
+body {
+    background: #FFFFCB;
+    color: #000000;
+    margin: 0;
+}
+
+nav a {
+    background: #2C858D;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.wrapper {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media (min-width: 800px) {
+    .wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav {
+        background: #2C858D;
+        display: flex;
+    }
+    a {
+        border-bottom: 0;
+        /*border-right: 1px solid #ffffff;
+        border-left: 1px solid #ffffff;*/
+        width: 25%;
+    }
+    a:hover {
+        border-bottom: 1px solid #ffffff;
+    }
+}
