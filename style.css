@@ -1,0 +1,20 @@
+body {
+    background: #ffffff;
+    color: #000000;
+    margin: 0;
+}
+
+a {
+    background: #2C858D;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.wrapper {
+    padding-left: 2%;
+    padding-right: 2%;
+}
